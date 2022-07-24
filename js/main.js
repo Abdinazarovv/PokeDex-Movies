@@ -24,7 +24,7 @@ elBtnClean.addEventListener("click", function () {
 })
 
 function render(array) {
-    array = array.slice(0, prompt("soni kiriting"));
+    array = array.slice(0, prompt("Nechta tur kerak"));
     elResult.textContent = array.length
     for (const item of array) {
         let newLi = document.createElement("li");
