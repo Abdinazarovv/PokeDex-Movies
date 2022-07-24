@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body id="mainBody">
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__top d-flex justify-content-between">
+                    <button type="button" class="btn btn__1 btn-outline-primary mx-2">Pokemon</button>
+                    <button type="button" class="btn btn__2 btn-outline-success mx-2">Movies</button>
+                    <button type="button" class="btn btn__clean btn-outline-danger mx-2">Clean</button>
+                </div>
+                
+                <p class="text-center fs-4 fw-bold my-3">Result: <span class="result"></span></p>
+                
+                <ul class="list">
+                    <li class="list__item text-center m-0">
+                        Tugamalardan birini bosing!
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="container d-flex justify-content-between my-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/pokemons.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pokemons</h5>
+                            <p class="card-text">In 1998, Nintendo spent $25 million promoting Pokémon in the United States in partnership with Hasbro, KFC, and others.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">It is recommended</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/netlifix.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Netlifix Movies</h5>
+                            <p class="card-text">Netflix was founded on the aforementioned date by Reed Hastings and Marc Randolph in Scotts Valley, California.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">It is recommended</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/movies.js"></script>
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
